@@ -7,14 +7,7 @@
     --fondo-2: #1e293b;
     --blanco: #e2e8f0;
 }
-/* animaciones titulos */
 
-.testp:hover {
-  font-size: 20px; /* Tamaño final */
-}
-.palabra-crece:hover {
-  font-size: 20px; /* Tamaño final */
-}
 /* Reinicia márgenes y aplica tipografía consistente en todos los elementos. */
 * {
     margin: 0;
