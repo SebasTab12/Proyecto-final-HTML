@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodify | Herramientas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Prodify</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="productividad.html">Productividad</a>
+      <a href="herramientas.html">Herramientas</a>
+      <a href="estadisticas.html">Estadísticas</a>
+      <a href="acerca.html">Acerca de</a>
+    </nav>
+  </header>
+  <section class="titulo">
+    <h2>Herramientas de Productividad</h2>
+    <p>Organiza tareas, gestiona tu tiempo y crea hábitos con estas herramientas.</p>
+  </section>
+  <section class="imagen-centro">
+    <img src="img/principalh.png" alt="Herramientas" id="principalh">
+  </section>
+  <section class="tareas">
+    <center>
+      <h2>Gestor de Tareas</h2>
+      <p>Agrega actividades y márcalas cuando las completes.</p>
+      <input type="text" id="tareaInput" placeholder="Escribe una tarea">
+      <button id="agregarTarea">Agregar tarea</button>
+    </center>
+    <ul id="listaTareas"></ul>
+  </section>
+  <section class="agenda">
+    <h2>Agenda Personal</h2>
+    <p>Programa actividades con fecha y hora para no olvidar nada.</p>
+    <input type="text" id="actividadInput" placeholder="Nombre de la actividad">
+    <input type="date" id="fechaInput">
+    <input type="time" id="horaInput">
+    <button id="agregarActividad">Guardar actividad</button>
+    <div id="listaAgenda"></div>
+  </section>
+  <section class="pomodoro">
+    <h2>Temporizador Pomodoro</h2>
+    <p>Trabaja 25 minutos y luego toma un breve descanso.</p>
+    <h1 id="temporizador"></h1>
+    <div class="botones">
+      <button id="iniciar">Iniciar</button>
+      <button id="pausar">Pausar</button>
+      <button id="reiniciar">Reiniciar</button>
+    </div>
+  </section>
+  <section class="reto">
+    <h1>Reto Diario</h1>
+    <p>Prueba este reto para mejorar tu hábito cada día.</p>
+    <img src="img/reto.png" alt="Reto del día" id="reto">
+    <div class="tarjeta">
+      <p id="retoDiario"></p>
+    </div>
+  </section>
+  <section class="frase">
+    <div class="tarjeta">
+      <h2>"La disciplina vence al talento cuando el talento no es constante."</h2>
+    </div>
+  </section>
+  <footer>
+    <h2>Prodify</h2>
+    <br>
+    <p>Proyecto desarrollado por <strong><a href="acerca.html">Sebastian Quiroz</a></strong></p>
+    <small>© 2026</small>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
